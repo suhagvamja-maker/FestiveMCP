@@ -1,0 +1,936 @@
+{
+ "meta": {
+  "title": "GoKwik Festive Checkout Benchmark",
+  "window": {
+   "start": "2025-09-22",
+   "end": "2025-11-05",
+   "label": "Festive 2025"
+  },
+  "source": "GoKwik network — category cuts across thousands of Indian D2C brands",
+  "caveat": "Directional, for planning. Figures are analytics estimates; smaller categories are more directional.",
+  "peaks_note": "Two demand peaks: (1) big sale week — Navratri / BBD-GIF; (2) Dhanteras → Diwali gifting. The sale-week spike, not Diwali day, is the biggest.",
+  "payment_mix_note": "COD % + Prepaid % + PPCOD % = 100. EMI % is a subset of prepaid."
+ },
+ "categories": [
+  {
+   "key": "fashion",
+   "name": "Fashion & Apparel",
+   "aov_inr": 1688,
+   "cod_pct": 57.0,
+   "prepaid_pct": 40.5,
+   "ppcod_pct": 2.5,
+   "emi_pct": 1.0,
+   "cod_rto_pct": 30.4,
+   "prepaid_rto_pct": 1.9,
+   "blended_rto_pct": 17.8,
+   "cod_return_pct": 3.1,
+   "checkout_completion_pct": 32.3,
+   "cart_abandon_pct": 54.6,
+   "rebuy_days": 19,
+   "charm_price_inr": 699,
+   "charm_price_pct": 25.4,
+   "top10_gmv_share_pct": 47.0,
+   "tier3_orders_pct": 42.0,
+   "tier3_rto_pct": 33.0,
+   "festive_gmv_lift_pct": 20.0,
+   "festive_orders_lift_pct": 16.0,
+   "rides_festive": true,
+   "basket_risk": [
+    {
+     "basket_size": "1 item",
+     "pct_of_orders": 64.5,
+     "cod_rto_pct": 31.4,
+     "riskiest": true
+    },
+    {
+     "basket_size": "2 items",
+     "pct_of_orders": 22.1,
+     "cod_rto_pct": 23.1,
+     "riskiest": false
+    },
+    {
+     "basket_size": "3-4 items",
+     "pct_of_orders": 11.1,
+     "cod_rto_pct": 18.7,
+     "riskiest": false
+    },
+    {
+     "basket_size": "5+ items",
+     "pct_of_orders": 2.3,
+     "cod_rto_pct": 21.4,
+     "riskiest": false
+    }
+   ],
+   "top_products": [
+    {
+     "rank": 1,
+     "product": "Bangles & anklets",
+     "pct_of_units": 11.4
+    },
+    {
+     "rank": 2,
+     "product": "Pants",
+     "pct_of_units": 10.3
+    },
+    {
+     "rank": 3,
+     "product": "Necklaces",
+     "pct_of_units": 8.1
+    },
+    {
+     "rank": 4,
+     "product": "T-shirts",
+     "pct_of_units": 6.7
+    },
+    {
+     "rank": 5,
+     "product": "Shirts",
+     "pct_of_units": 6.7
+    }
+   ]
+  },
+  {
+   "key": "beauty",
+   "name": "Beauty & Personal Care",
+   "aov_inr": 831,
+   "cod_pct": 49.1,
+   "prepaid_pct": 48.5,
+   "ppcod_pct": 2.4,
+   "emi_pct": 0.7,
+   "cod_rto_pct": 32.6,
+   "prepaid_rto_pct": 2.1,
+   "blended_rto_pct": 16.5,
+   "cod_return_pct": 1.9,
+   "checkout_completion_pct": 33.4,
+   "cart_abandon_pct": 51.6,
+   "rebuy_days": 25,
+   "charm_price_inr": 999,
+   "charm_price_pct": 14.7,
+   "top10_gmv_share_pct": 38.0,
+   "tier3_orders_pct": 44.0,
+   "tier3_rto_pct": 34.8,
+   "festive_gmv_lift_pct": 8.0,
+   "festive_orders_lift_pct": 11.0,
+   "rides_festive": true,
+   "basket_risk": [
+    {
+     "basket_size": "1 item",
+     "pct_of_orders": 37.9,
+     "cod_rto_pct": 35.1,
+     "riskiest": false
+    },
+    {
+     "basket_size": "2 items",
+     "pct_of_orders": 29.3,
+     "cod_rto_pct": 38.4,
+     "riskiest": true
+    },
+    {
+     "basket_size": "3-4 items",
+     "pct_of_orders": 20.4,
+     "cod_rto_pct": 33.5,
+     "riskiest": false
+    },
+    {
+     "basket_size": "5+ items",
+     "pct_of_orders": 12.3,
+     "cod_rto_pct": 27.5,
+     "riskiest": false
+    }
+   ],
+   "top_products": [
+    {
+     "rank": 1,
+     "product": "Serums",
+     "pct_of_units": 10.7
+    },
+    {
+     "rank": 2,
+     "product": "Cleansers",
+     "pct_of_units": 10.7
+    },
+    {
+     "rank": 3,
+     "product": "Perfumes",
+     "pct_of_units": 8.9
+    },
+    {
+     "rank": 4,
+     "product": "Moisturisers",
+     "pct_of_units": 7.7
+    },
+    {
+     "rank": 5,
+     "product": "Sunscreen",
+     "pct_of_units": 6.9
+    }
+   ]
+  },
+  {
+   "key": "home",
+   "name": "Home & Living",
+   "aov_inr": 1750,
+   "cod_pct": 39.9,
+   "prepaid_pct": 58.6,
+   "ppcod_pct": 1.4,
+   "emi_pct": 1.5,
+   "cod_rto_pct": 33.7,
+   "prepaid_rto_pct": 3.6,
+   "blended_rto_pct": 14.4,
+   "cod_return_pct": 3.9,
+   "checkout_completion_pct": 23.5,
+   "cart_abandon_pct": 63.2,
+   "rebuy_days": 22,
+   "charm_price_inr": 499,
+   "charm_price_pct": 20.1,
+   "top10_gmv_share_pct": 55.0,
+   "tier3_orders_pct": 43.0,
+   "tier3_rto_pct": 36.4,
+   "festive_gmv_lift_pct": 30.0,
+   "festive_orders_lift_pct": 10.0,
+   "rides_festive": true,
+   "basket_risk": [
+    {
+     "basket_size": "1 item",
+     "pct_of_orders": 60.7,
+     "cod_rto_pct": 36.5,
+     "riskiest": true
+    },
+    {
+     "basket_size": "2 items",
+     "pct_of_orders": 14.7,
+     "cod_rto_pct": 22.8,
+     "riskiest": false
+    },
+    {
+     "basket_size": "3-4 items",
+     "pct_of_orders": 8.9,
+     "cod_rto_pct": 22.0,
+     "riskiest": false
+    },
+    {
+     "basket_size": "5+ items",
+     "pct_of_orders": 15.7,
+     "cod_rto_pct": 23.9,
+     "riskiest": false
+    }
+   ],
+   "top_products": [
+    {
+     "rank": 1,
+     "product": "Cleaning",
+     "pct_of_units": 8.5
+    },
+    {
+     "rank": 2,
+     "product": "Storage",
+     "pct_of_units": 8.1
+    },
+    {
+     "rank": 3,
+     "product": "Kitchen tools",
+     "pct_of_units": 7.8
+    },
+    {
+     "rank": 4,
+     "product": "Cookware",
+     "pct_of_units": 4.2
+    },
+    {
+     "rank": 5,
+     "product": "Décor",
+     "pct_of_units": 4.0
+    }
+   ]
+  },
+  {
+   "key": "wellness",
+   "name": "Wellness",
+   "aov_inr": 1448,
+   "cod_pct": 49.3,
+   "prepaid_pct": 49.6,
+   "ppcod_pct": 1.2,
+   "emi_pct": 1.7,
+   "cod_rto_pct": 28.9,
+   "prepaid_rto_pct": 1.9,
+   "blended_rto_pct": 15.0,
+   "cod_return_pct": 4.5,
+   "checkout_completion_pct": 40.0,
+   "cart_abandon_pct": 44.9,
+   "rebuy_days": 30,
+   "charm_price_inr": 512,
+   "charm_price_pct": 11.2,
+   "top10_gmv_share_pct": 44.0,
+   "tier3_orders_pct": 43.0,
+   "tier3_rto_pct": 31.0,
+   "festive_gmv_lift_pct": -12.0,
+   "festive_orders_lift_pct": -6.0,
+   "rides_festive": false,
+   "basket_risk": [
+    {
+     "basket_size": "1 item",
+     "pct_of_orders": 70.7,
+     "cod_rto_pct": 30.0,
+     "riskiest": false
+    },
+    {
+     "basket_size": "2 items",
+     "pct_of_orders": 19.5,
+     "cod_rto_pct": 32.4,
+     "riskiest": true
+    },
+    {
+     "basket_size": "3-4 items",
+     "pct_of_orders": 7.9,
+     "cod_rto_pct": 25.1,
+     "riskiest": false
+    },
+    {
+     "basket_size": "5+ items",
+     "pct_of_orders": 1.8,
+     "cod_rto_pct": 19.7,
+     "riskiest": false
+    }
+   ],
+   "top_products": [
+    {
+     "rank": 1,
+     "product": "Herbal supplements",
+     "pct_of_units": 15.0
+    },
+    {
+     "rank": 2,
+     "product": "Protein",
+     "pct_of_units": 13.2
+    },
+    {
+     "rank": 3,
+     "product": "Vitamins",
+     "pct_of_units": 4.5
+    },
+    {
+     "rank": 4,
+     "product": "Orthopaedic supports",
+     "pct_of_units": 4.4
+    }
+   ]
+  },
+  {
+   "key": "electronics",
+   "name": "Electronics",
+   "aov_inr": 1744,
+   "cod_pct": 29.4,
+   "prepaid_pct": 64.5,
+   "ppcod_pct": 6.1,
+   "emi_pct": 4.6,
+   "cod_rto_pct": 35.6,
+   "prepaid_rto_pct": 2.2,
+   "blended_rto_pct": 13.4,
+   "cod_return_pct": 4.1,
+   "checkout_completion_pct": 17.3,
+   "cart_abandon_pct": 67.9,
+   "rebuy_days": 13,
+   "charm_price_inr": 899,
+   "charm_price_pct": 24.9,
+   "top10_gmv_share_pct": 48.0,
+   "tier3_orders_pct": 46.0,
+   "tier3_rto_pct": 37.7,
+   "festive_gmv_lift_pct": 10.0,
+   "festive_orders_lift_pct": -13.0,
+   "rides_festive": true,
+   "basket_risk": [
+    {
+     "basket_size": "1 item",
+     "pct_of_orders": 79.5,
+     "cod_rto_pct": 34.8,
+     "riskiest": false
+    },
+    {
+     "basket_size": "2 items",
+     "pct_of_orders": 14.2,
+     "cod_rto_pct": 41.9,
+     "riskiest": true
+    },
+    {
+     "basket_size": "3-4 items",
+     "pct_of_orders": 3.8,
+     "cod_rto_pct": 19.0,
+     "riskiest": false
+    },
+    {
+     "basket_size": "5+ items",
+     "pct_of_orders": 2.6,
+     "cod_rto_pct": 16.3,
+     "riskiest": false
+    }
+   ],
+   "top_products": [
+    {
+     "rank": 1,
+     "product": "Phone covers",
+     "pct_of_units": 35.5
+    },
+    {
+     "rank": 2,
+     "product": "Earphones",
+     "pct_of_units": 12.3
+    },
+    {
+     "rank": 3,
+     "product": "Smartwatches",
+     "pct_of_units": 8.9
+    },
+    {
+     "rank": 4,
+     "product": "Watches",
+     "pct_of_units": 4.0
+    },
+    {
+     "rank": 5,
+     "product": "Laptop skins",
+     "pct_of_units": 3.5
+    }
+   ]
+  },
+  {
+   "key": "food",
+   "name": "Food & Beverages",
+   "aov_inr": 999,
+   "cod_pct": 46.4,
+   "prepaid_pct": 52.1,
+   "ppcod_pct": 1.5,
+   "emi_pct": 0.3,
+   "cod_rto_pct": 22.0,
+   "prepaid_rto_pct": 1.9,
+   "blended_rto_pct": 11.1,
+   "cod_return_pct": 0.6,
+   "checkout_completion_pct": 39.4,
+   "cart_abandon_pct": 51.7,
+   "rebuy_days": 29,
+   "charm_price_inr": 608,
+   "charm_price_pct": 4.2,
+   "top10_gmv_share_pct": 39.0,
+   "tier3_orders_pct": 44.0,
+   "tier3_rto_pct": 23.1,
+   "festive_gmv_lift_pct": -22.0,
+   "festive_orders_lift_pct": -20.0,
+   "rides_festive": false,
+   "basket_risk": [
+    {
+     "basket_size": "1 item",
+     "pct_of_orders": 63.8,
+     "cod_rto_pct": 31.8,
+     "riskiest": true
+    },
+    {
+     "basket_size": "2 items",
+     "pct_of_orders": 16.6,
+     "cod_rto_pct": 23.6,
+     "riskiest": false
+    },
+    {
+     "basket_size": "3-4 items",
+     "pct_of_orders": 11.1,
+     "cod_rto_pct": 16.8,
+     "riskiest": false
+    },
+    {
+     "basket_size": "5+ items",
+     "pct_of_orders": 8.5,
+     "cod_rto_pct": 15.4,
+     "riskiest": false
+    }
+   ],
+   "top_products": [
+    {
+     "rank": 1,
+     "product": "Functional drinks",
+     "pct_of_units": 18.9
+    },
+    {
+     "rank": 2,
+     "product": "Atta & grains",
+     "pct_of_units": 8.5
+    },
+    {
+     "rank": 3,
+     "product": "Protein bars",
+     "pct_of_units": 7.7
+    },
+    {
+     "rank": 4,
+     "product": "Namkeen",
+     "pct_of_units": 6.0
+    },
+    {
+     "rank": 5,
+     "product": "Seasonings",
+     "pct_of_units": 4.2
+    }
+   ]
+  },
+  {
+   "key": "toys",
+   "name": "Toys, Games & Sports",
+   "aov_inr": 1562,
+   "cod_pct": 37.7,
+   "prepaid_pct": 59.2,
+   "ppcod_pct": 3.1,
+   "emi_pct": 0.9,
+   "cod_rto_pct": 25.5,
+   "prepaid_rto_pct": 1.6,
+   "blended_rto_pct": 10.3,
+   "cod_return_pct": 4.9,
+   "checkout_completion_pct": 30.1,
+   "cart_abandon_pct": 63.0,
+   "rebuy_days": 16,
+   "charm_price_inr": 598,
+   "charm_price_pct": 15.7,
+   "top10_gmv_share_pct": 45.0,
+   "tier3_orders_pct": 40.0,
+   "tier3_rto_pct": 28.6,
+   "festive_gmv_lift_pct": 21.0,
+   "festive_orders_lift_pct": 16.0,
+   "rides_festive": true,
+   "basket_risk": [
+    {
+     "basket_size": "1 item",
+     "pct_of_orders": 66.9,
+     "cod_rto_pct": 25.8,
+     "riskiest": true
+    },
+    {
+     "basket_size": "2 items",
+     "pct_of_orders": 20.3,
+     "cod_rto_pct": 21.0,
+     "riskiest": false
+    },
+    {
+     "basket_size": "3-4 items",
+     "pct_of_orders": 9.7,
+     "cod_rto_pct": 11.6,
+     "riskiest": false
+    },
+    {
+     "basket_size": "5+ items",
+     "pct_of_orders": 3.1,
+     "cod_rto_pct": 8.8,
+     "riskiest": false
+    }
+   ],
+   "top_products": [
+    {
+     "rank": 1,
+     "product": "Educational toys",
+     "pct_of_units": 23.3
+    },
+    {
+     "rank": 2,
+     "product": "Educational games",
+     "pct_of_units": 11.2
+    },
+    {
+     "rank": 3,
+     "product": "Jigsaw puzzles",
+     "pct_of_units": 6.7
+    },
+    {
+     "rank": 4,
+     "product": "Action figures",
+     "pct_of_units": 5.3
+    }
+   ]
+  },
+  {
+   "key": "baby",
+   "name": "Baby & Kids",
+   "aov_inr": 1070,
+   "cod_pct": 38.4,
+   "prepaid_pct": 60.5,
+   "ppcod_pct": 1.2,
+   "emi_pct": 0.2,
+   "cod_rto_pct": 19.5,
+   "prepaid_rto_pct": 1.8,
+   "blended_rto_pct": 8.8,
+   "cod_return_pct": 0.1,
+   "checkout_completion_pct": 37.7,
+   "cart_abandon_pct": 36.1,
+   "rebuy_days": 28,
+   "charm_price_inr": 568,
+   "charm_price_pct": 2.0,
+   "top10_gmv_share_pct": 50.0,
+   "tier3_orders_pct": 46.0,
+   "tier3_rto_pct": 20.4,
+   "festive_gmv_lift_pct": 14.0,
+   "festive_orders_lift_pct": 14.0,
+   "rides_festive": true,
+   "basket_risk": [
+    {
+     "basket_size": "1 item",
+     "pct_of_orders": 38.6,
+     "cod_rto_pct": 15.4,
+     "riskiest": false
+    },
+    {
+     "basket_size": "2 items",
+     "pct_of_orders": 13.6,
+     "cod_rto_pct": 29.7,
+     "riskiest": true
+    },
+    {
+     "basket_size": "3-4 items",
+     "pct_of_orders": 26.5,
+     "cod_rto_pct": 23.0,
+     "riskiest": false
+    },
+    {
+     "basket_size": "5+ items",
+     "pct_of_orders": 21.3,
+     "cod_rto_pct": 16.1,
+     "riskiest": false
+    }
+   ],
+   "top_products": [
+    {
+     "rank": 1,
+     "product": "Baby wipes",
+     "pct_of_units": 27.4
+    },
+    {
+     "rank": 2,
+     "product": "Rash care",
+     "pct_of_units": 14.9
+    },
+    {
+     "rank": 3,
+     "product": "Baby wash",
+     "pct_of_units": 11.1
+    },
+    {
+     "rank": 4,
+     "product": "Diapers",
+     "pct_of_units": 8.9
+    },
+    {
+     "rank": 5,
+     "product": "Baby soaps",
+     "pct_of_units": 8.2
+    }
+   ]
+  },
+  {
+   "key": "books",
+   "name": "Books & Stationery",
+   "aov_inr": 1123,
+   "cod_pct": 38.3,
+   "prepaid_pct": 59.7,
+   "ppcod_pct": 2.0,
+   "emi_pct": 0.1,
+   "cod_rto_pct": 25.3,
+   "prepaid_rto_pct": 1.6,
+   "blended_rto_pct": 10.8,
+   "cod_return_pct": 1.3,
+   "checkout_completion_pct": 28.1,
+   "cart_abandon_pct": 56.0,
+   "rebuy_days": 11,
+   "charm_price_inr": 599,
+   "charm_price_pct": 9.6,
+   "top10_gmv_share_pct": 41.0,
+   "tier3_orders_pct": 45.0,
+   "tier3_rto_pct": 27.8,
+   "festive_gmv_lift_pct": 44.0,
+   "festive_orders_lift_pct": 28.0,
+   "rides_festive": true,
+   "basket_risk": [
+    {
+     "basket_size": "1 item",
+     "pct_of_orders": 68.5,
+     "cod_rto_pct": 29.7,
+     "riskiest": true
+    },
+    {
+     "basket_size": "2 items",
+     "pct_of_orders": 19.5,
+     "cod_rto_pct": 26.5,
+     "riskiest": false
+    },
+    {
+     "basket_size": "3-4 items",
+     "pct_of_orders": 8.4,
+     "cod_rto_pct": 22.6,
+     "riskiest": false
+    },
+    {
+     "basket_size": "5+ items",
+     "pct_of_orders": 3.7,
+     "cod_rto_pct": 25.1,
+     "riskiest": false
+    }
+   ],
+   "top_products": [
+    {
+     "rank": 1,
+     "product": "Academic books",
+     "pct_of_units": 39.0
+    },
+    {
+     "rank": 2,
+     "product": "Pens & pencils",
+     "pct_of_units": 16.3
+    },
+    {
+     "rank": 3,
+     "product": "Sensory toys",
+     "pct_of_units": 7.9
+    },
+    {
+     "rank": 4,
+     "product": "Planners",
+     "pct_of_units": 7.2
+    },
+    {
+     "rank": 5,
+     "product": "Notebooks",
+     "pct_of_units": 4.2
+    }
+   ]
+  },
+  {
+   "key": "pet",
+   "name": "Pet Supplies",
+   "aov_inr": 1199,
+   "cod_pct": 45.7,
+   "prepaid_pct": 52.2,
+   "ppcod_pct": 2.1,
+   "emi_pct": 0.0,
+   "cod_rto_pct": 31.0,
+   "prepaid_rto_pct": 2.6,
+   "blended_rto_pct": 17.6,
+   "cod_return_pct": 6.3,
+   "checkout_completion_pct": 44.0,
+   "cart_abandon_pct": 39.4,
+   "rebuy_days": 27,
+   "charm_price_inr": 540,
+   "charm_price_pct": 7.3,
+   "top10_gmv_share_pct": 55.0,
+   "tier3_orders_pct": 33.0,
+   "tier3_rto_pct": 32.9,
+   "festive_gmv_lift_pct": 91.0,
+   "festive_orders_lift_pct": 19.0,
+   "rides_festive": true,
+   "basket_risk": [
+    {
+     "basket_size": "1 item",
+     "pct_of_orders": 83.1,
+     "cod_rto_pct": 31.9,
+     "riskiest": true
+    },
+    {
+     "basket_size": "2 items",
+     "pct_of_orders": 11.5,
+     "cod_rto_pct": 28.0,
+     "riskiest": false
+    },
+    {
+     "basket_size": "3-4 items",
+     "pct_of_orders": 4.0,
+     "cod_rto_pct": 17.9,
+     "riskiest": false
+    },
+    {
+     "basket_size": "5+ items",
+     "pct_of_orders": 1.4,
+     "cod_rto_pct": 20.0,
+     "riskiest": false
+    }
+   ],
+   "top_products": [
+    {
+     "rank": 1,
+     "product": "Dog food",
+     "pct_of_units": 27.6
+    },
+    {
+     "rank": 2,
+     "product": "Skin & coat care",
+     "pct_of_units": 19.5
+    },
+    {
+     "rank": 3,
+     "product": "Pet supplements",
+     "pct_of_units": 8.9
+    },
+    {
+     "rank": 4,
+     "product": "Pet clothing",
+     "pct_of_units": 7.9
+    },
+    {
+     "rank": 5,
+     "product": "Pet shampoo",
+     "pct_of_units": 5.3
+    }
+   ]
+  },
+  {
+   "key": "hardware_auto",
+   "name": "Hardware & Auto",
+   "aov_inr": 1904,
+   "cod_pct": 47.3,
+   "prepaid_pct": 47.9,
+   "ppcod_pct": 4.8,
+   "emi_pct": 3.6,
+   "cod_rto_pct": 36.7,
+   "prepaid_rto_pct": 2.2,
+   "blended_rto_pct": 15.9,
+   "cod_return_pct": 1.2,
+   "checkout_completion_pct": 20.5,
+   "cart_abandon_pct": 69.1,
+   "rebuy_days": 12,
+   "charm_price_inr": 538,
+   "charm_price_pct": 8.2,
+   "top10_gmv_share_pct": 50.0,
+   "tier3_orders_pct": 52.0,
+   "tier3_rto_pct": 38.2,
+   "festive_gmv_lift_pct": 58.0,
+   "festive_orders_lift_pct": 52.0,
+   "rides_festive": true,
+   "basket_risk": [
+    {
+     "basket_size": "1 item",
+     "pct_of_orders": 80.9,
+     "cod_rto_pct": 40.8,
+     "riskiest": true
+    },
+    {
+     "basket_size": "2 items",
+     "pct_of_orders": 11.4,
+     "cod_rto_pct": 23.1,
+     "riskiest": false
+    },
+    {
+     "basket_size": "3-4 items",
+     "pct_of_orders": 5.3,
+     "cod_rto_pct": 20.0,
+     "riskiest": false
+    },
+    {
+     "basket_size": "5+ items",
+     "pct_of_orders": 2.4,
+     "cod_rto_pct": 12.8,
+     "riskiest": false
+    }
+   ],
+   "top_products": [
+    {
+     "rank": 1,
+     "product": "Car interior",
+     "pct_of_units": 28.6
+    },
+    {
+     "rank": 2,
+     "product": "Bike parts",
+     "pct_of_units": 20.8
+    },
+    {
+     "rank": 3,
+     "product": "Car care",
+     "pct_of_units": 6.6
+    },
+    {
+     "rank": 4,
+     "product": "Car exterior",
+     "pct_of_units": 6.4
+    },
+    {
+     "rank": 5,
+     "product": "Power tools",
+     "pct_of_units": 6.1
+    }
+   ]
+  },
+  {
+   "key": "others",
+   "name": "Others",
+   "aov_inr": 1290,
+   "cod_pct": 50.7,
+   "prepaid_pct": 46.9,
+   "ppcod_pct": 2.4,
+   "emi_pct": 1.2,
+   "cod_rto_pct": 31.0,
+   "prepaid_rto_pct": 2.0,
+   "blended_rto_pct": 16.3,
+   "cod_return_pct": 2.7,
+   "checkout_completion_pct": 31.7,
+   "cart_abandon_pct": 54.6,
+   "rebuy_days": 20,
+   "charm_price_inr": 999,
+   "charm_price_pct": 15.0,
+   "top10_gmv_share_pct": 47.0,
+   "tier3_orders_pct": 43.0,
+   "tier3_rto_pct": 32.0,
+   "festive_gmv_lift_pct": 12.0,
+   "festive_orders_lift_pct": 8.0,
+   "rides_festive": true,
+   "basket_risk": [
+    {
+     "basket_size": "1 item",
+     "pct_of_orders": 63.0,
+     "cod_rto_pct": 32.0,
+     "riskiest": true
+    },
+    {
+     "basket_size": "2 items",
+     "pct_of_orders": 21.0,
+     "cod_rto_pct": 30.0,
+     "riskiest": false
+    },
+    {
+     "basket_size": "3-4 items",
+     "pct_of_orders": 12.0,
+     "cod_rto_pct": 24.0,
+     "riskiest": false
+    },
+    {
+     "basket_size": "5+ items",
+     "pct_of_orders": 4.0,
+     "cod_rto_pct": 28.0,
+     "riskiest": false
+    }
+   ],
+   "top_products": []
+  }
+ ],
+ "festival_timeline": [
+  {
+   "event": "Navratri",
+   "date": "2025-09-22",
+   "what_it_marks": "Start of the season; the big sale week (BBD / GIF) kicks off here"
+  },
+  {
+   "event": "Dussehra",
+   "date": "2025-10-02",
+   "what_it_marks": "End of the opening sale week"
+  },
+  {
+   "event": "Dhanteras",
+   "date": "2025-10-18",
+   "what_it_marks": "Dhanteras → Diwali gifting peak begins"
+  },
+  {
+   "event": "Diwali",
+   "date": "2025-10-21",
+   "what_it_marks": "Peak festival. The network's single biggest DAY is the sale week ~2-3 weeks earlier, not Diwali day itself"
+  },
+  {
+   "event": "Chhath",
+   "date": "2025-10-28",
+   "what_it_marks": "Tail of the festive season"
+  },
+  {
+   "event": "Window end",
+   "date": "2025-11-05",
+   "what_it_marks": "End of the benchmarked festive window"
+  }
+ ]
+}
